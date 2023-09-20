@@ -1,0 +1,59 @@
+#! /bin/bash  
+
+for file in `ls files`; do
+  
+  if [ ${file:0:1} = 'a' ] || [ ${file:0:1} = 'A' ] ; then
+    mv files/$file a
+  elif [ ${file:0:1} = 'b' ] || [ ${file:0:1} = 'B' ] ; then	
+    mv files/$file b
+  elif [ ${file:0:1} = 'c' ] || [ ${file:0:1} = 'C' ] ; then	
+    mv files/$file c
+  elif [ ${file:0:1} = 'd' ] || [ ${file:0:1} = 'D' ] ; then	
+    mv files/$file d
+  elif [ ${file:0:1} = 'e' ] || [ ${file:0:1} = 'E' ] ; then	
+    mv files/$file e
+  elif [ ${file:0:1} = 'f' ] || [ ${file:0:1} = 'F' ] ; then	
+    mv files/$file f
+  elif [ ${file:0:1} = 'g' ] || [ ${file:0:1} = 'G' ] ; then	
+    mv files/$file g
+  elif [ ${file:0:1} = 'h' ] || [ ${file:0:1} = 'H' ] ; then	
+    mv files/$file h
+  elif [ ${file:0:1} = 'i' ] || [ ${file:0:1} = 'I' ] ; then	
+    mv files/$file i
+  elif [ ${file:0:1} = 'j' ] || [ ${file:0:1} = 'J' ] ; then	
+    mv files/$file j
+  elif [ ${file:0:1} = 'k' ] || [ ${file:0:1} = 'K' ] ; then	
+    mv files/$file k
+  elif [ ${file:0:1} = 'l' ] || [ ${file:0:1} = 'L' ] ; then	
+    mv files/$file l
+  elif [ ${file:0:1} = 'm' ] || [ ${file:0:1} = 'M' ] ; then	
+    mv files/$file m
+  elif [ ${file:0:1} = 'n' ] || [ ${file:0:1} = 'N' ] ; then	
+    mv files/$file n
+  elif [ ${file:0:1} = 'o' ] || [ ${file:0:1} = 'O' ] ; then	
+    mv files/$file o
+  elif [ ${file:0:1} = 'p' ] || [ ${file:0:1} = 'P' ] ; then	
+    mv files/$file p
+  elif [ ${file:0:1} = 'q' ] || [ ${file:0:1} = 'Q' ] ; then	
+    mv files/$file q
+  elif [ ${file:0:1} = 'r' ] || [ ${file:0:1} = 'R' ] ; then	
+    mv files/$file r
+  elif [ ${file:0:1} = 's' ] || [ ${file:0:1} = 'S' ] ; then	
+    mv files/$file s
+  elif [ ${file:0:1} = 't' ] || [ ${file:0:1} = 'T' ] ; then	
+    mv files/$file t
+  elif [ ${file:0:1} = 'u' ] || [ ${file:0:1} = 'U' ] ; then	
+    mv files/$file u
+  elif [ ${file:0:1} = 'v' ] || [ ${file:0:1} = 'V' ] ; then	
+    mv files/$file v
+  elif [ ${file:0:1} = 'w' ] || [ ${file:0:1} = 'W' ] ; then	
+    mv files/$file w
+  elif [ ${file:0:1} = 'x' ] || [ ${file:0:1} = 'X' ] ; then	
+    mv files/$file x
+  elif [ ${file:0:1} = 'y' ] || [ ${file:0:1} = 'Y' ] ; then	
+    mv files/$file y
+  elif [ ${file:0:1} = 'z' ] || [ ${file:0:1} = 'Z' ] ; then	
+    mv files/$file z
+  fi 
+  
+done
